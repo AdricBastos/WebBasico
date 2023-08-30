@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+ <h1> Vamos testar a criação de um botão</h1>
+ <button onclick="alert('Você clicou no botão!')">Clique Aqui </button>
+ <p></p>
+  <button onclick="this.style.backgroundColor = 'red';">Mudar Cor</button>
+  <p></p>
+ <p id="conteudo" style="display: none;">Texto oculto</p>
+  <button onclick="document.getElementById('conteudo').style.display = 'block';">Mostrar Texto</button>
+ <p></p>
+ <form>
+  <input type="text" id="campo">
+  <button type="button" onclick="document.getElementById('campo').value = '';">Limpar Campo</button>
+  </form>
+  <p></p>
+  <button onclick="window.location.href = 'Exercicio1.html';">Ir para outra página</button>
+ </body>
+ </html>
